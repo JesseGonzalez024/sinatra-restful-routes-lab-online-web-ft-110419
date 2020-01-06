@@ -4,7 +4,7 @@
 <h3>Cook Time:</h3>
 <p><%= @recipe.cook_time %></p>
 
-<form method="DELETE" action="/recipes/<%=@recipe.id%>">
+<form method="delete" action="/recipes/<%=@recipe.id%>">
   <input id="hidden" type="hidden" name="_method" value="DELETE">
   <input type="submit" value="delete">
 </form> 
